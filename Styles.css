@@ -2,6 +2,19 @@ h1 {
 	color: Indianred;
 	text-align: center;
 }
+
+.assignment {
+	display:flex;
+	padding: 10px;
+	margin: 15px;
+	background: lightslategray;
+}
+
+.assignment img {
+	width: 500px;
+	padding: 10px;
+}
+
 body {
 background: lightgreen;
 font-family:Arial, Helvetica, sans-serif;
