@@ -22,6 +22,14 @@ table {
 	background-color: powderblue;
 }
 
+.navigation {
+	display:flex;
+	padding: 10px;
+	margin: 25px;
+	background: #707F8C;
+	box-shadow: 10px 14px #E8A27B;
+}
+
 .assignment {
 	display:flex;
 	padding: 10px;
