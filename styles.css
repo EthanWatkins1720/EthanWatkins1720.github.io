@@ -7,7 +7,7 @@ body {
 	background: #3C4C59;
 	color: #E3E0D0;	
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	background-image: 'background.jpg';
+	background-image: url(background.jpg);
 	}
 
 .assignment {
