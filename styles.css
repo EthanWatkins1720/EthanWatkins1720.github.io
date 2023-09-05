@@ -8,7 +8,18 @@ body {
 	color: #E3E0D0;	
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	background-image: url(background.jpg);
-	}
+}
+
+img {
+	
+	margin-right: 10px;
+}
+
+table {
+	padding: 10px;
+	border: 5px solid #E8A27B;
+	background-color: #E3E0D0;
+}
 
 .assignment {
 	display:flex;
@@ -18,11 +29,6 @@ body {
 	box-shadow: 10px 14px #E8A27B;
 }
 
-img {
-	padding: 10px;
-	border: 5px solid #E8A27B;
-	margin-right: 10px;
-}
 .assignment img {
 	width: 450px;
 	
