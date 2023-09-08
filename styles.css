@@ -1,6 +1,7 @@
 h1 {
 	color: #E8BF7B;
 	text-align: center;
+	margin: 1%;
 }
 
 body {
@@ -11,9 +12,20 @@ body {
 }
 
 img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pirate-image {
 	padding: 10px;
 	border: 5px solid #E8A27B;
 	margin-right: 10px;
+}
+
+#images {
+	justify-content: center;
+	padding: 1%;
+	width: 100%;
 }
 
 table {
@@ -21,9 +33,18 @@ table {
 	border: 5px solid #E8A27B;
 }
 
+#main-header {
+	margin: 1%
+}
+
 .navigation {
 	padding: 10px;
 	margin: 25px;
+	background: rgba(112, 127, 140, .7);
+	box-shadow: 10px 14px rgba(232, 162, 123, .7);
+}
+
+#main-nav {
 	background: rgba(112, 127, 140, .7);
 	box-shadow: 10px 14px rgba(232, 162, 123, .7);
 }
@@ -36,13 +57,77 @@ table {
 	font-family:Arial, Helvetica, sans-serif;
 }
 
-#content {
+#main-nav li{
+	text-decoration: none;
+	justify-content: center;
+	list-style-type: none;
+	display: flex;
+	width: 100%;
+}
+
+#main-nav ul{
+	text-decoration: none;
+	padding-left: 0px;
+	display: flex;
+}
+
+.row {
+	display: flex;
+}
+
+#columns {
+	justify-content: center;
+}
+
+#column-1 {
+	width: 50%;
+}
+
+#column-1 ul{
+	text-decoration: none;
+	padding-left: 0px;
+	display: flex;
+}
+
+#column-1 li {
+	text-decoration: none;
+	justify-content: center;
+	list-style-type: none;
+	display: flex;
+	width: 100%;
+}
+
+#column-2 {
+	width: 50%;
+}
+
+#column-2 ul{
+	text-decoration: none;
+	padding-left: 0px;
+	display: flex;
+}
+
+#column-2 li {
+	text-decoration: none;
+	justify-content: center;
+	list-style-type: none;
+	display: flex;
+	width: 100%;
+}
+
+.content {
 	padding: 10px;
-	margin: 25px;
+	margin: 1%;
 	background: rgba(112, 127, 140, .5);
 	box-shadow: 10px 14px rgba(232, 162, 123, .6);
 }
 
+.sub-content {
+	background-color: #E8A27B;
+	padding: 11%;
+	margin: 1%;
+	display: inline-block;
+}
 
 .assignment {
 	display:flex;
@@ -66,4 +151,40 @@ a {
 
 a:hover {
 	color: red;
+}
+
+.footer-content {
+	background-color: #3C4C59;
+	justify-content: center;
+}
+
+#copyright h2{
+	text-align: center;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+#copyright h3{
+	text-align: center;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+#address {
+	display: flex;
+	justify-content: right;
+	width: 100%;
+}
+
+#text {
+	width: fit-content;
+	font-size: 110%;
+}
+
+@media only screen and (min-width: 768px) {
+	#main-nav ul{
+		text-decoration: none;
+		padding-left: 0px;
+		display: grid;
+	}
 }
