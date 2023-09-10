@@ -41,6 +41,14 @@ table {
 	margin: 1%
 }
 
+.main-title {
+	text-align: center;
+	padding: 10px;
+	margin: 25px;
+	background: rgba(112, 127, 140, .7);
+	box-shadow: 10px 14px rgba(232, 162, 123, .7);
+}
+
 .navigation {
 	padding: 10px;
 	margin: 25px;
@@ -73,6 +81,22 @@ table {
 	text-decoration: none;
 	padding-left: 0px;
 	display: flex;
+}
+
+#main-assignments {
+	display: flex;
+
+}
+
+.assignment-row {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.assignment-column {
+	float: left;
+	width: 33.32%;
 }
 
 .row {
@@ -134,7 +158,6 @@ table {
 }
 
 .assignment {
-	display:flex;
 	padding: 10px;
 	margin: 25px;
 	background: #707F8C;
@@ -142,7 +165,7 @@ table {
 }
 
 .assignment img {
-	width: 450px;
+	width: 97%;
 	
 }
 
@@ -190,6 +213,15 @@ a:hover {
 		text-decoration: none;
 		padding-left: 0px;
 		display: grid;
+	}
+
+	.assignment-row {
+		display: grid;
+	}
+
+	.assignment-column {
+		float: center;
+		width: 100%;
 	}
 
 	.row {
