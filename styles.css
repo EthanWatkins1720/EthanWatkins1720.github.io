@@ -85,7 +85,10 @@ table {
 
 #main-assignments {
 	display: flex;
+}
 
+.main-image {
+	float: left;
 }
 
 .assignment-row {
@@ -164,9 +167,23 @@ table {
 	box-shadow: 10px 14px #E8A27B;
 }
 
+.assignment-japan {
+	padding: 10px;
+	margin: 25px;
+	background: #707F8C;
+	box-shadow: 10px 14px #E8A27B;
+}
+
+.assignment-japan img {
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	display:inline-block;
+}
+
 .assignment img {
 	width: 97%;
-	
 }
 
 a {
