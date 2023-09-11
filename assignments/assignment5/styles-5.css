@@ -65,6 +65,11 @@ body {
     margin-top: 2%;
 }
 
+#secondary-nav a {
+    text-decoration: none;
+    color: white;
+}
+
 #title-search input{
     position:relative;
     float: right;
@@ -73,7 +78,7 @@ body {
 }
 
 #title-search img {
-    margin-left: 3%;
+    margin-left: 5%;
     margin-top: 3%;
     margin-bottom: 2%;
 }
@@ -262,6 +267,26 @@ body {
 #eigth-text button {
     background-color:#73000a;
     color: white;
+    padding: 2%;
+}
+
+#ninth-row {
+    size: 1450 700;
+}
+
+#the-good-stuff {
+    background-color: #73000a;
+    color: white;
+    margin-top: 25%;
+    margin-bottom: 5%;
+    width: 40%;
+    padding: 3%;
+    margin-left: 3%;
+}
+
+#the-good-stuff button {
+    color: white;
+    background-color: black;
     padding: 2%;
 }
 
