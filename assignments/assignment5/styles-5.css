@@ -310,3 +310,80 @@ body {
     color: white;
     padding: 2%;
 }
+
+#row-1 {
+    display: flex;
+}
+
+#small-logo {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 8%;
+}
+
+#socials {
+    position: relative;
+    left: 50%;
+    text-decoration: none;
+	padding-left: 0px;
+	display: flex;
+
+    margin-top: 2%;
+}
+
+#socials li {
+    text-decoration: none;
+	justify-content: center;
+	list-style-type: none;
+	display: flex;
+	width: 100%;
+    margin: 10%;
+}
+
+#row-2 {
+    display: flex;
+    margin-top: 3%;
+    width: 100%;
+}
+
+#row-2 li {
+    text-decoration: none;
+	justify-content: center;
+	list-style-type: none;
+	display: block;
+    width: 1%;
+    margin: 1%;
+}
+
+#list-1 {
+    width: 50%;
+}
+
+#list-2 {
+    width: 35%;
+}
+
+#list-3 {
+    width: 15%;
+}
+
+#row-3 {
+    display: flex;
+}
+
+#row-3 ul {
+    text-decoration: none;
+	padding-left: 0px;
+	display: flex;
+    width: 100%;
+}
+
+#row-3 li{
+    text-decoration: none;
+	justify-content: center;
+	list-style-type: none;
+    font-size: small;
+	display: flex;
+	width: 100%;
+    margin: 2%;
+}
