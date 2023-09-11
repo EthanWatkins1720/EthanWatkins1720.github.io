@@ -183,6 +183,18 @@ body {
     margin-top: 3%;
 }
 
+#fifth-row {
+    background-color: white;
+    margin-top: 0px;
+}
+
+#fifth-row h2{
+    margin-left: 30%;
+    font-size: 400%;
+    color:#570008;
+    font-family:'Times New Roman', Times, serif;
+}
+
 #fifth-row ul {
     text-decoration: none;
     list-style-type: none;
@@ -196,4 +208,80 @@ body {
     justify-content: center;
     margin:2%;
     display: inline-block;
+}
+
+#sixth-row {
+    display: flex;
+    background-color: #570008;
+}
+
+#the-rest {
+    margin-top: 10%;
+    margin-left: 1%;
+    color: white;
+}
+
+#the-rest button {
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
+
+#seventh-row {
+    display: flex;
+    background-color: white;
+}
+
+#the-text {
+    width: 60%;
+    margin-left: 10%;
+}
+
+#the-text h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color:#73000a;
+}
+
+#the-text button {
+    color: white;
+    background-color: #73000a;
+    padding: 2%;
+}
+
+#eigth-row {
+    display: flex;
+    background-color: #1F414D;
+}
+
+#eigth-text {
+    margin-top: 1%;
+    margin-left: 1%;
+    color: white;
+}
+
+#eigth-text button {
+    background-color:#73000a;
+    color: white;
+    padding: 2%;
+}
+
+#tenth-row {
+    display: flex;
+    background-color: white;
+}
+
+#tenth-text {
+    margin-top: 1%;
+    margin-left: 1%;
+    color: black;
+}
+
+#tenth-text h1 {
+    color:  #73000a;
+}
+
+#tenth-text button {
+    background-color:#73000a;
+    color: white;
+    padding: 2%;
 }
