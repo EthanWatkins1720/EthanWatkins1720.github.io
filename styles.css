@@ -332,38 +332,47 @@ a:hover {
 	}
 }
 
+#snail-box {
+	width: 100%;
+	height: 300px;
+}
+
 #snail {
-	width: 35px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
 }
 
 .move-snail {
     position: relative;
-    animation-name: animate-snail;
-    animation-duration: 4s;
-	animation-iteration-count: 2;
+    animation-name: anim-snail;
+    animation-duration: 17s;
+    animation-iteration-count: 2;
 }
 
-@keyframes animate-snail {
-	0% {
-		left: 75px;
-	}
+@keyframes anim-snail {
+    0% {
+        top: 0%;
+		left: 0%;
+    }
 
 	25% {
-		left: 75px;
-		top: 75px;
+		top: 0%;
+		left: 90%;
 	}
 
-	50% {
-		top: 75px;
-		right: 75px;
-	}
+    50% {
+        top: 90%;
+		left: 90%;
+    }
 
 	75% {
-		bottom: 75px;
-		right: 75px;
+		top: 90%;
+		left: 0%;
 	}
 
-	100% {
-		left: 75px;
-	}
+    100% {
+		top: 0%;
+		left: 0%;
+    }
 }
