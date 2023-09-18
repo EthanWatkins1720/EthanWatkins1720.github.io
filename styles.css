@@ -249,6 +249,14 @@ a:hover {
 	font-size: 110%;
 }
 
+#inputs {
+	margin-left:1%;
+}
+
+#comment-button {
+	margin-top: 2%;
+}
+
 @media only screen and (max-width: 768px) {
 	#main-nav ul{
 		text-decoration: none;
@@ -375,4 +383,11 @@ a:hover {
 		top: 0%;
 		left: 0%;
     }
+}
+
+.output {
+    display: flex;
+    color: black;
+    padding: 10px;
+    border: 5px solid #E8A27B; 
 }
