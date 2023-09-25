@@ -1,11 +1,31 @@
+let toggle = true;
+
 const showExercise1 = () => {
     document.getElementById("main-2").style.display = "none";
     document.getElementById("main-1").style.display = "block";
+    document.getElementById("exercise-1").style.background = "linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 30%)";
+    document.getElementById("exercise-2").style.background = "none";
+    document.getElementById("exercise-2").style.backgroundColor = "white";
 }
 
 const showExercise2 = () => {
     document.getElementById("main-1").style.display = "none";
     document.getElementById("main-2").style.display = "block";
+    document.getElementById("exercise-1").style.background = "none";
+    document.getElementById("exercise-1").style.backgroundColor = "white";
+    document.getElementById("exercise-2").style.background = "linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 30%)";
+}
+
+const displayMenu = () => {
+    if (toggle == true) {
+        document.getElementById("exercise-1").style.display = "none";
+        document.getElementById("exercise-2").style.display = "none";
+        toggle = false;
+    } else if (toggle == false) {
+        document.getElementById("exercise-1").style.display = "block";
+        document.getElementById("exercise-2").style.display = "block";
+        toggle = true;
+    }
 }
 
 const compareAge = () => {
@@ -82,8 +102,10 @@ const displayFunds = () => {
 }
 
 window.onload = () => {
+    toggle = true;
     document.getElementById("exercise-1").onclick = showExercise1;
     document.getElementById("exercise-2").onclick = showExercise2;
     document.getElementById("age-button").onclick = compareAge;
     document.getElementById("display-button").onclick = displayFunds;
+    document.getElementById("burger").onclick = displayMenu;
 }
