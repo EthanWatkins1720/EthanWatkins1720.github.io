@@ -257,6 +257,49 @@ a:hover {
 	margin-top: 2%;
 }
 
+.exercise-button {
+	border: none;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 47.5%;
+	padding-right: 47.5%;
+}
+
+#age-button {
+	border: none;
+	margin-top: 1%;
+}
+
+#output {
+	margin-bottom: 3%;
+}
+
+#thermometer {
+	margin-top: 2%;
+	margin-left: 25%;
+	width: 100px;
+	height: 300px;
+	background-color: #ffffff;
+}
+
+#padding {
+	height: 10px;
+}
+
+.exercise {
+	margin-left: 25%;
+	padding-left: 2%;
+	margin-right: 25%;
+	padding-top: 1%;
+	
+	background: rgba(112, 127, 140, .7);
+	box-shadow: 10px 14px rgba(232, 162, 123, .7);
+}
+
+#main-2 {
+	display: none;
+}
+
 @media only screen and (max-width: 768px) {
 	#main-nav ul{
 		text-decoration: none;
@@ -387,7 +430,7 @@ a:hover {
 
 .output {
     display: flex;
-    color: black;
+    color: #E3E0D0;
     padding: 10px;
     border: 5px solid #E8A27B; 
 }

@@ -16,7 +16,6 @@ const displayComment = () => {
     const comment = document.getElementById("comment").value;
     const rating = document.getElementById("rating").value;
     const username = document.getElementById("username").value;
-    fin.classList.add("output");
     fin.appendChild(proName);
     fin.appendChild(document.createElement("br"));
     fin.appendChild(rating);
