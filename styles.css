@@ -92,7 +92,7 @@ table {
 }
 
 #main-assignments {
-	display: flex;
+	display: block;
 }
 
 .main-image {
