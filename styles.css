@@ -312,6 +312,30 @@ a:hover {
 	display: none;
 }
 
+#main8-1 {
+	width: 50%;
+	height: 25%;
+}
+
+#main8-2 {
+	width: 50%;
+}
+
+#walking-man {
+	height: 100px;
+	width: 100px;
+}
+
+#running-man {
+	height: 100px;
+	width: 100px;
+	display: none;
+}
+
+#track {
+	width: fit-content;
+	height: 102px;
+}
 
 @media only screen and (max-width: 768px) {
 	#main-nav ul{
