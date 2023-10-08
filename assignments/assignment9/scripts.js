@@ -31,7 +31,7 @@ const rainbowMaker = () => {
     stripeColor(i);
     i++;
     if (i < colors.length) {
-        setTimeout(rainbowMaker, 200);
+        setTimeout(rainbowMaker, 2000);
     }
     if (i == 6) {
         document.getElementById("gold").style.display = "block";
