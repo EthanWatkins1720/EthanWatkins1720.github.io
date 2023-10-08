@@ -321,6 +321,22 @@ a:hover {
 	width: 50%;
 }
 
+#main9-1 {
+	width: 50%;
+	height: 200px;
+}
+
+#main9-2 {
+	width: 50%;
+	height: 200px;
+	position: relative;
+}
+
+#output9-1 {
+	margin: auto;
+	font-size: xx-large;
+}
+
 #walking-man {
 	height: 100px;
 	width: 100px;
@@ -335,6 +351,28 @@ a:hover {
 #track {
 	width: fit-content;
 	height: 102px;
+}
+
+.stripe {
+	margin: 0%;
+}
+
+#rainbow-list {
+	text-decoration: none;
+	padding-left: 0px;
+}
+
+#rainbow-list li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+#gold {
+	width: 10%;
+	left: 85%;
+	bottom: 20%;
+	position: absolute;
+	display: none;
 }
 
 @media only screen and (max-width: 768px) {
