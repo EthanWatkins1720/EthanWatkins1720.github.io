@@ -56,8 +56,73 @@
 }
 
 #page-title {
-    margin-left: 50%;
+    margin-left: 45%;
 }
+
+.prev-news-post {
+    display: flex;
+    margin: 2%;
+    background-color: rgba(222, 134, 143, 42);
+}
+
+.prev-forum-post {
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: rgba(147, 210, 243, 54);
+}
+
+.prev-image {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+
+.prev-text {
+    margin-left: 3%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.prev-title {
+    display: inline;
+}
+
+.prev-author {
+    margin-left: 6%;
+    margin-top: 1%;
+}
+
+.about-us-text {
+    margin: 2%;
+    padding: 1%;
+    background-color: rgba(204, 247, 131, 36);
+}
+
+.forum-preview {
+    display: flex;
+    background-color: rgba(147, 210, 243, 54);
+    margin: 2%;
+}
+
+.user-prev {
+    padding: 1%;
+}
+
+.forum-desc-prev {
+    display: block;
+}
+
+.forum-image-prev {
+    margin-right: 1%;
+}
+
+.image-prev {
+    margin-top: 5%;
+}
+
+
 
 @media only screen and (max-width: 768px) {
 
@@ -71,6 +136,35 @@
 
     #main-nav ul {
         display: block;
+    }
+
+    .prev-news-post {
+        display: block;
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-bottom: 1%;
+        background-color: rgba(222, 134, 143, 42);
+    }
+    
+    .prev-forum-post {
+        display: block;
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-bottom: 1%;
+        background-color: rgba(147, 210, 243, 54);
+    }
+
+    .prev-image {
+        margin-top: 5%;
+        margin-left: 25%;
+        margin-bottom: 5%;
+    }
+    
+    .prev-text {
+        margin-left: 3%;
+        margin-right: 2%;
+        margin-top: 2%;
+        margin-bottom: 4%;
     }
 
 }
