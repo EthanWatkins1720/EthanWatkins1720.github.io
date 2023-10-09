@@ -1,0 +1,76 @@
+#main-nav {
+	background: blue;
+    font-weight: bold;
+    width: 100%;
+    display: grid;
+}
+
+#main-nav a {
+	display: inline-block;
+	margin: 10px;
+	text-decoration:none;
+	color: white;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#main-nav li{
+	text-decoration: none;
+	justify-content: center;
+	list-style-type: none;
+	display: flex;
+	width: 100%;
+}
+
+#main-nav li:hover {
+    background: gray;
+}
+
+#main-nav ul{
+	text-decoration: none;
+	padding-left: 0px;
+	display: flex;
+}
+
+#burger div{
+	width: 35px;
+	height: 5px;
+	margin: 6px 0;
+	background-color: cornflowerblue;
+	display: none;
+}
+
+
+#title-search input{
+    position:relative;
+    float: right;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+#logo-title {
+    display: inline-block;
+}
+
+#logo-title h1 {
+    display: inline;
+}
+
+#page-title {
+    margin-left: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #burger div{
+		display: grid;
+	}
+
+    #main-nav {
+        display: none;
+    }
+
+    #main-nav ul {
+        display: block;
+    }
+
+}
