@@ -189,9 +189,26 @@
     margin: 2%;
 }
 
-
 .comment-text {
     margin-left: 1.5%;
+}
+
+#news-post {
+    background-color: rgba(222, 134, 143, 42);
+    margin: 2%;
+    padding: 2%;
+}
+
+#news-heading {
+    text-align: center;
+}
+
+#central-news-image {
+    text-align: center;
+}
+
+#the-rest {
+    display: flex;
 }
 
 @media only screen and (max-width: 768px) {
