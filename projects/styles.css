@@ -156,6 +156,44 @@
     margin-bottom: 1%;
 }
 
+#post {
+    background-color: rgba(147, 210, 243, 54);
+    margin: 2%;
+    padding-bottom: 1%;
+}
+
+.forum-user-info {
+    display: flex;
+    margin: 2%;
+}
+
+.pfp {
+    margin: 2%;
+}
+
+#post-title {
+    text-align: center;
+}
+
+.post-image {
+    margin-left: 33%;
+}
+
+#post-description {
+    text-align: center;
+}
+
+.comment {
+    background-color: rgba(147, 210, 243, 54);
+    display: flex;
+    margin: 2%;
+}
+
+
+.comment-text {
+    margin-left: 1.5%;
+}
+
 @media only screen and (max-width: 768px) {
 
     #burger div{
