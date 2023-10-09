@@ -122,7 +122,39 @@
     margin-top: 5%;
 }
 
+#account-box {
+    background-color: rgba(213, 184, 250, 55);
+}
 
+#user-image {
+    margin: 2%;
+}
+
+#user-info {
+    display: flex;
+}
+
+#user-info h3 {
+    display: block;
+}
+
+#user-desc {
+    margin: 2%;
+}
+
+#change-buttons {
+    margin: 2%;
+}
+
+#save-button {
+    margin-left: 46%;
+}
+
+#delete-button {
+    margin-left: 45.85%;
+    margin-top: 20%;
+    margin-bottom: 1%;
+}
 
 @media only screen and (max-width: 768px) {
 
