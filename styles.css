@@ -91,6 +91,10 @@ table {
 	display: flex;
 }
 
+#main-nav-button {
+	background: none;
+}
+
 #main-assignments {
 	display: block;
 }
@@ -117,8 +121,11 @@ table {
 
 .assignment-row {
 	content: "";
-	display: table;
 	clear: both;
+}
+
+#project-row-1 {
+	display: none;
 }
 
 .assignment-column {
