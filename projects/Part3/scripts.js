@@ -19,9 +19,9 @@ const showEmailResult = async (e) => {
     } else {
       result.innerHTML = "Sorry, your email was not sent.";
     }
-  };
+};
 
-  const getEmailResult = async (e) => {
+const getEmailResult = async (e) => {
     const form = document.getElementById("contact-form");
     const formData = new FormData(form);
     const object = Object.fromEntries(formData);
@@ -44,11 +44,29 @@ const showEmailResult = async (e) => {
       document.getElementById("result").innerHTML =
         "Sorry your email couldn't be sent";
     }
-  };
+};
+
+const showExamplePost = () => {
+    // alert("hi");
+    const title = document.getElementById("postEX-h2");
+    title.innerHTML = document.getElementById("title-text").value;
+    const body = document.getElementById("post-text");
+    body.innerHTML = document.getElementById("body-text").value;
+    document.getElementById("success-message").style.display = "block";
+    document.getElementById("postEX").style.display = "block";
+
+}
 
 window.onload = () => {
     toggle = false;
     document.getElementById("burger").onclick = displayMenu;
-    const submit = document.getElementById("submit-button");
-    submit.onclick = showEmailResult;
+    const checkContact = document.querySelector("#contact");
+    if (checkContact) {
+        document.getElementById("submit-button").onclick = showEmailResult;
+    }
+    const checkForumSubmit = document.querySelector("#postEX");
+    if (checkForumSubmit) {
+        document.getElementById("form-submit-button").onclick = showExamplePost;
+    }
+    
 }

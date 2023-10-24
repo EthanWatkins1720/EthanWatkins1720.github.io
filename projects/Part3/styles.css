@@ -65,7 +65,7 @@ body {
 }
 
 #page-title {
-    margin-left: 45%;
+    text-align: center;
 }
 
 .prev-news-post {
@@ -107,6 +107,10 @@ body {
     margin: 2%;
     padding: 1%;
     background-color: rgba(204, 247, 131, 36);
+}
+
+#new-post-button {
+    text-align: center;
 }
 
 .forum-preview {
@@ -173,10 +177,23 @@ body {
     margin-bottom: 1%;
 }
 
-#post {
+#submit-formEX {
+    text-align: center;
+}
+
+.post {
     background-color: rgba(147, 210, 243, 54);
     margin: 2%;
     padding: 2%;
+}
+
+#postEX {
+    display: none;
+}
+
+#success-message {
+    margin-left: 2%;
+    display: none;
 }
 
 .forum-user-info {
@@ -261,6 +278,12 @@ body {
 
 #contact {
     text-align: center;
+}
+
+.contact-input {
+    width: 50%;
+    padding: 5px;
+    margin: 2px;
 }
 
 @media only screen and (max-width: 768px) {
