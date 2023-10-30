@@ -434,9 +434,25 @@ a:hover {
 
 .movie {
 	background-color: #E3E0D0;
-	width: 95%;
-	height: 20px;
-	margin: 2px;
+	height: 225px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.movie-image {
+	transition: transform 0.2s;
+}
+
+.movie-image:hover {
+	transform: scale(1.5);
+}
+
+#movie-h2 {
+	text-align: center;
+	margin-top: 1px;
+	margin-bottom: 1px;
 }
 
 @media only screen and (max-width: 768px) {
