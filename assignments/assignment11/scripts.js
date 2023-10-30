@@ -25,7 +25,9 @@ const getMovieItem = (movie) => {
     let row = document.createElement("div");
 
     let img = document.createElement("img");
-    img.src = movie.img;
+    let imgURL = "https://portiaportia.github.io/json/images/";
+    imgURL.concat(movie.img);
+    img.src = imgURL;
     movieSection.append(img);
 
     let h3 = document.createElement("h3");
