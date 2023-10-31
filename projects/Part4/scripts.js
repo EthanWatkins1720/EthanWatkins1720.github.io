@@ -1,13 +1,13 @@
 let toggle = false;
 
 const displayMenu = () => {
-    if (toggle == true) {
-        document.getElementById("main-nav").style.display = "none";
-        toggle = false;
-    } else if (toggle == false) {
-        document.getElementById("main-nav").style.display = "grid";
-        toggle = true;
-    }
+  if (toggle == true) {
+    document.getElementById("main-nav").style.display = "none";
+    toggle = false;
+  } else if (toggle == false) {
+    document.getElementById("main-nav").style.display = "grid";
+    toggle = true;
+  }
 }
 
 const showEmailResult = async (e) => {
@@ -60,12 +60,13 @@ const showExamplePost = () => {
 const getForumPosts = async() => {
   const url = "https://ethanwatkins.github.io/projects/Part4/forumPosts.json";
 
-    try {
-        const response = await fetch(url);
-        return await response.json();
-    } catch(error) {
-        console.log(error);
-    }
+  try {
+    
+    const response = await fetch(url);
+    return await response.json();
+  } catch(error) {
+    console.log(error);
+  }
 }
 
 const getUsers = async() => {
