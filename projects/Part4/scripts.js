@@ -57,16 +57,58 @@ const showExamplePost = () => {
 
 }
 
+const getForumPosts = async() => {
+  const url = "https://ethanwatkins.github.io/projects/Part4/forumPosts.json";
+
+    try {
+        const response = await fetch(url);
+        return await response.json();
+    } catch(error) {
+        console.log(error);
+    }
+}
+
+const getUsers = async() => {
+  const location = "https://github.com/EthanWatkins1720/jsonStorage/blob/main/forumPosts.json";
+
+  try {
+    const response = await fetch(location);
+    return await response.json();
+  } catch(error) {
+    console.log(error);
+  }
+}
+
+const showForumPosts = async() => {
+  let posts = await getForumPosts();
+  let postsSection = document.getElementById("posts-section");
+
+  posts.forEach((post) => 
+    postsSection.append(getPostItem(post))
+  );
+}
+
+const getPostItem = (post) => {
+  let postSection = document.createElement("div");
+  postSection.setAttribute('class','forum-preview');
+
+
+  return postSection;
+}
+
 window.onload = () => {
-    toggle = false;
-    document.getElementById("burger").onclick = displayMenu;
-    const checkContact = document.querySelector("#contact");
-    if (checkContact) {
-        document.getElementById("submit-button").onclick = showEmailResult;
-    }
-    const checkForumSubmit = document.querySelector("#postEX");
-    if (checkForumSubmit) {
-        document.getElementById("form-submit-button").onclick = showExamplePost;
-    }
-    
+  toggle = false;
+  document.getElementById("burger").onclick = displayMenu;
+  const checkContact = document.querySelector("#contact");
+  if (checkContact) {
+    document.getElementById("submit-button").onclick = showEmailResult;
+  }
+  const checkForumSubmit = document.querySelector("#postEX");
+  if (checkForumSubmit) {
+    document.getElementById("form-submit-button").onclick = showExamplePost;
+  } 
+  const checkPostsSection = document.querySelector("#posts-section");
+  if (checkPostsSection) {
+    showForumPosts();
+  }
 }
