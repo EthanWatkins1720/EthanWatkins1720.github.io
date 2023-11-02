@@ -103,6 +103,10 @@ table {
 	float: left;
 }
 
+#server-links {
+	text-align: center;
+}
+
 #javascript-tests {
 	display: flex;
 }
