@@ -54,14 +54,12 @@ const showExamplePost = () => {
     body.innerHTML = document.getElementById("body-text").value;
     document.getElementById("success-message").style.display = "block";
     document.getElementById("postEX").style.display = "block";
-
 }
 
 const getForumPosts = async() => {
   const url = "https://ethanwatkins.github.io/projects/Part4/forumPosts.json";
 
   try {
-    
     const response = await fetch(url);
     return await response.json();
   } catch(error) {
